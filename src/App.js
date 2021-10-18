@@ -25,9 +25,18 @@ function App() {
         setClicks(0);
     }
 
+    const handleCardCountChange = event => {
+        const cardCount = event.target.value * 1;
+        setCardCount(cardCount);
+        setCards(initCards(cardCount));
+        setClicks(0);
+    }
+
     return <div className="app">
-        <Tableau cards={cards} onCardClick={handleCardClick}/>
-        <button className="clicks" onClick={handleClicksClick}>{clicks}</button>
+        <div className="parameters">
+            <label>Number of cards: <input type="number" min="1" max="100" value={cardCount} onChange={handleCardCountChange}/></label>
+        </div>
+        <Tableau cards={cards} onCardClick={handleCardClick} clicks={{value:clicks, set:setClicks}} onClicksClick={handleClicksClick}/>
     </div>;
 }
 

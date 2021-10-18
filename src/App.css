@@ -15,15 +15,16 @@
 .tableau {
     display: inline-block;
     margin: 16px;
-    vertical-align: middle;
 }
 
 .tableau > .card {
     display: inline-block;
     margin-right: 14px;
+    margin-bottom: 14px;
+    vertical-align: middle;
 }
 
-.app .clicks {
+.tableau .clicks {
     font-size: 5em;
     margin: 16px;
     vertical-align: middle;
@@ -33,4 +34,8 @@
     background: none;
     border: none;
     cursor: pointer;
+}
+
+.parameters {
+    margin: 20px;
 }
