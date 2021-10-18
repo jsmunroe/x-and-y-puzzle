@@ -28,3 +28,9 @@
     margin: 16px;
     vertical-align: middle;
 }
+
+.clicks {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
