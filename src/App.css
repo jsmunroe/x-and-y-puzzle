@@ -36,6 +36,7 @@
     cursor: pointer;
 }
 
-.parameters {
+.parameters,
+.analysis {
     margin: 20px;
 }

@@ -26,7 +26,7 @@ function App() {
     }
 
     const handleCardCountChange = event => {
-        const cardCount = event.target.value * 1;
+        const cardCount = Math.min(Math.max(event.target.value * 1, 1), 100);
         setCardCount(cardCount);
         setCards(initCards(cardCount));
         setClicks(0);
@@ -37,6 +37,12 @@ function App() {
             <label>Number of cards: <input type="number" min="1" max="100" value={cardCount} onChange={handleCardCountChange}/></label>
         </div>
         <Tableau cards={cards} onCardClick={handleCardClick} clicks={{value:clicks, set:setClicks}} onClicksClick={handleClicksClick}/>
+        <div className="analysis">
+            For n number of cards...<br/>
+            n<sub>min</sub> = ⌊n/2⌋ = {Math.floor(cardCount / 2)}<br/>
+            n<sub>max</sub> = (n + 1)(n/2) = (n<sup>2</sup> + n)/2 = {(cardCount * cardCount + cardCount)/2}<br/><br/>
+            Note: n<sub>max</sub> is equal to the average of n and its square.
+        </div>
     </div>;
 }
 
