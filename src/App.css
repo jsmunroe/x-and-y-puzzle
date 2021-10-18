@@ -13,10 +13,18 @@
 }
 
 .tableau {
+    display: inline-block;
     margin: 16px;
+    vertical-align: middle;
 }
 
 .tableau > .card {
     display: inline-block;
     margin-right: 14px;
+}
+
+.app .clicks {
+    font-size: 5em;
+    margin: 16px;
+    vertical-align: middle;
 }
