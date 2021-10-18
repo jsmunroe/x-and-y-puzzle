@@ -34,7 +34,9 @@ function App() {
 
     return <div className="app">
         <div className="parameters">
-            <label>Number of cards: <input type="number" min="1" max="100" value={cardCount} onChange={handleCardCountChange}/></label>
+            <label>Number of cards: <input type="number" min="1" max="100" value={cardCount} onChange={handleCardCountChange}/></label><br/>
+            <br/>
+            <em>Click the # of clicks to reset.</em>
         </div>
         <Tableau cards={cards} onCardClick={handleCardClick} clicks={{value:clicks, set:setClicks}} onClicksClick={handleClicksClick}/>
         <div className="analysis">

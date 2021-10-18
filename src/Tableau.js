@@ -6,5 +6,5 @@ export default function Tableau({cards, onCardClick, clicks, onClicksClick}) {
 }
 
 function Card({card, onClick}) {
-    return <button className={`card ${card.faceDown ? 'face-down' : 'face-up'}`} onClick={onClick}></button>
+    return <button type="# of clicks" className={`card ${card.faceDown ? 'face-down' : 'face-up'}`} onClick={onClick}></button>
 }

@@ -12,6 +12,10 @@
     background-image: url(./resources/smiles.png);
 }
 
+.card.face-down:hover {
+    background-color: #727272;
+}
+
 .tableau {
     display: inline-block;
     margin: 16px;
