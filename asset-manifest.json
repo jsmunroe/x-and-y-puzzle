@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/x-and-y-puzzle/static/css/main.88f47a19.chunk.css",
-    "main.js": "/x-and-y-puzzle/static/js/main.c05f674a.chunk.js",
-    "main.js.map": "/x-and-y-puzzle/static/js/main.c05f674a.chunk.js.map",
+    "main.css": "/x-and-y-puzzle/static/css/main.9ecb06d7.chunk.css",
+    "main.js": "/x-and-y-puzzle/static/js/main.0f515687.chunk.js",
+    "main.js.map": "/x-and-y-puzzle/static/js/main.0f515687.chunk.js.map",
     "runtime-main.js": "/x-and-y-puzzle/static/js/runtime-main.e9e0a13c.js",
     "runtime-main.js.map": "/x-and-y-puzzle/static/js/runtime-main.e9e0a13c.js.map",
-    "static/js/2.4c319509.chunk.js": "/x-and-y-puzzle/static/js/2.4c319509.chunk.js",
-    "static/js/2.4c319509.chunk.js.map": "/x-and-y-puzzle/static/js/2.4c319509.chunk.js.map",
+    "static/js/2.c885c36d.chunk.js": "/x-and-y-puzzle/static/js/2.c885c36d.chunk.js",
+    "static/js/2.c885c36d.chunk.js.map": "/x-and-y-puzzle/static/js/2.c885c36d.chunk.js.map",
     "static/js/3.cd2ae272.chunk.js": "/x-and-y-puzzle/static/js/3.cd2ae272.chunk.js",
     "static/js/3.cd2ae272.chunk.js.map": "/x-and-y-puzzle/static/js/3.cd2ae272.chunk.js.map",
     "index.html": "/x-and-y-puzzle/index.html",
-    "static/css/main.88f47a19.chunk.css.map": "/x-and-y-puzzle/static/css/main.88f47a19.chunk.css.map",
-    "static/js/2.4c319509.chunk.js.LICENSE.txt": "/x-and-y-puzzle/static/js/2.4c319509.chunk.js.LICENSE.txt"
+    "static/css/main.9ecb06d7.chunk.css.map": "/x-and-y-puzzle/static/css/main.9ecb06d7.chunk.css.map",
+    "static/js/2.c885c36d.chunk.js.LICENSE.txt": "/x-and-y-puzzle/static/js/2.c885c36d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.e9e0a13c.js",
-    "static/js/2.4c319509.chunk.js",
-    "static/css/main.88f47a19.chunk.css",
-    "static/js/main.c05f674a.chunk.js"
+    "static/js/2.c885c36d.chunk.js",
+    "static/css/main.9ecb06d7.chunk.css",
+    "static/js/main.0f515687.chunk.js"
   ]
 }
